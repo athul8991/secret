@@ -15,7 +15,7 @@ app.set('view engine','ejs')
 
 
 // db connection
-mongoose.connect("mongodb+srv://athuls8991:process.env.DBPASS@cluster0.ityc9mx.mongodb.net/userDb",{useNewUrlParser:true})
+mongoose.connect("mongodb+srv://athuls8991:tlHFPOJBAVvNb6A5@cluster0.ityc9mx.mongodb.net/userDb",{useNewUrlParser:true})
     .then(()=>{
          console.log("Connected");
     
