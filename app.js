@@ -15,7 +15,7 @@ app.set('view engine','ejs')
 
 
 // db connection
-mongoose.connect("mongodb://localhost:27017/userDb",{useNewUrlParser:true})
+mongoose.connect("mongodb+srv://athuls8991:process.env.DBPASS@cluster0.ityc9mx.mongodb.net/userDb",{useNewUrlParser:true})
     .then(()=>{
          console.log("Connected");
     
